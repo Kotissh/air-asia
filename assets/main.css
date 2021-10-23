@@ -1,0 +1,439 @@
+body {
+    font-family: "Open Sans", Arial, Helvetica, sans-serif;
+    background-color: #001821;
+    color: #fff;
+    font-size: 14px;
+    line-height: 21px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+    color: inherit;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+ul li {
+    list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0px;
+    /* font-weight: normal; */
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    margin: 0 auto;
+    width: 1140px;
+}
+
+.main-page__wrapper {
+    background: url(./img/1.png) center top no-repeat, url(./img/2.png) center bottom no-repeat;
+}
+
+
+.header {
+    height: 169.36px;
+    ;
+    position: relative;
+}
+
+.logo__pic {
+    display: block;
+    position: absolute;
+    top: 29px;
+    left: 0px;
+    width: 70px;
+}
+
+.menu {
+    position: absolute;
+    top: 38px;
+    left: 130px;
+}
+
+.menu__item {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 44px;
+}
+
+.menu__item:last-child {
+    margin-right: 0;
+}
+
+.menu__link {
+    font-size: 12px;
+    text-decoration: none;
+}
+
+.contacts {
+    position: absolute;
+    right: 0;
+    top: 32.64px;
+    font-style: normal;
+    text-align: right;
+}
+
+.contacts__phone {
+    text-decoration: none;
+    font-size: 23px;
+}
+
+.contacts__workhours {
+    font-size: 11px;
+    text-decoration: underline;
+}
+
+
+
+.promo__tours {
+    width: 511px;
+    margin-bottom: 246px;
+}
+
+.promo__title {
+    font-size: 61px;
+    font-weight: bold;
+    line-height: 83px;
+    height: 193px;
+}
+
+.promo__description {
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 10px;
+}
+
+.btn {
+    background: #F5170E;
+    border-radius: 35px;
+    padding: 16px 31px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 12px;
+    text-transform: uppercase;
+    margin-top: 30px;
+    display: inline-block;
+}
+
+.hot-tours {
+    margin-bottom: 127px;
+}
+
+.hot-tours__header {
+    display: inline-block;
+    margin-bottom: 51px;
+}
+
+.hot-tours__main-title {
+    font-weight: bold;
+    font-size: 36px;
+    margin-right: 12px;
+    width: 273px;
+    height: 49px;
+    display: inline-block;
+}
+
+.hot-tours__title-icon {
+    width: 21px;
+    height: 28px;
+    display: inline-block;
+}
+
+.hot-tours__item {
+    min-height: 305px;
+    display: inline-block;
+    margin-right: 15px;
+    width: 362px;
+    background: #fff;
+    border-radius: 5px 5px 5px 5px;
+}
+
+.hot-tours__item:last-child {
+    margin-right: 0;
+}
+
+.hot-tours__cover {
+    min-height: 144px;
+    margin-bottom: 33px;
+    border-radius: 5px 5px 5px 5px;
+}
+
+.hot-tours__card-title {
+    font-weight: bold;
+    font-size: 24px;
+    color: #000000;
+    margin-left: 22px;
+}
+
+.hot-tours__info {
+    color: #666666;
+    margin-bottom: 26px;
+}
+
+.hot-tours__item-info {
+    display: inline-block;
+}
+
+.hot-tours__info-cover {
+    margin-left: 28px;
+    margin-top: 21px;
+    display: inline-block;
+}
+
+.hot-tours__info-text {
+    width: 90px;
+    font-weight: normal;
+    font-size: 16px;
+    display: inline-block;
+}
+
+.hot-tours__description {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    color: #303030;
+    margin-left: 22px;
+    margin-right: 16px;
+    margin-bottom: 25px;
+}
+
+.hot-tours__button {
+    margin-left: 24px;
+    margin-bottom: 26px;
+}
+
+.btn--theme-common {
+    background-color: #fff;
+    color: #F5170E;
+    border-color: #F5170E;
+}
+
+
+.news {
+    margin-bottom: 57px;
+}
+
+.news-offer__title {
+    font-weight: bold;
+    font-size: 36px;
+    margin-bottom: 50px;
+}
+
+.news__item {
+    width: 557px;
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+    border-radius: 5px;
+    overflow: hidden;
+    object-fit: cover;
+}
+
+.news__text-content {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 25px 30px;
+    min-height: 140px;
+}
+
+.news__offer-date {
+    font-weight: normal;
+    font-size: 14px;
+    margin-bottom: 13px;
+}
+
+.news__title {
+    font-weight: bold;
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+
+
+
+.paginator {
+    text-align: center;
+}
+
+.paginator__display,
+.paginator__list,
+.paginator__item {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.paginator__display {
+    margin-right: 25px;
+}
+
+.paginator__item--active .paginator__link {
+    background: #FFFFFF;
+    color: #F5170E;
+
+}
+
+.paginator__link {
+    text-decoration: none;
+    display: block;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    position: relative;
+    font-weight: bold;
+    line-height: 32px;
+}
+
+.about-us {
+    margin-top: 150px;
+}
+.about-us:before {
+    content: "";
+    display: inline-block;
+    vertical-align: top;
+    width: 490px;
+    height: 505px;
+    background: url(./img/gates.jpg) center center / cover no-repeat;
+    border-radius: 5px;
+}
+
+.about-us__info {
+    background: rgb(161, 156, 156);
+    padding: 70px 80px;
+    display: inline-block;
+    vertical-align: top;
+    width: 785px;
+    height: 455px;
+    background: url(./img/mountains.jpg) center center / cover no-repeat;
+    margin-left: 354px;
+    margin-top: -435px;
+    border-radius: 5px;
+    margin-bottom: 53px;
+}
+
+.about-us__title {
+    font-weight: bold;
+    font-size: 36px;
+    color: #000;
+    margin-bottom: 37px;
+}
+
+.about-us__text {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 27px;
+    color: #060606;
+    margin-bottom: 43px;
+}
+
+.footer {
+    height: 146px;
+    position: relative;
+}
+
+.footer-container__line {
+border-top: 1px solid #FFF;
+opacity: 0.1;
+
+}
+
+.menu-footer {
+    position: absolute;
+    top: 38px;
+    left: 130px;
+}
+
+.menu__item {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 44px;
+}
+
+.menu__item:last-child {
+    margin-right: 0;
+}
+
+.menu__link {
+    font-size: 12px;
+    text-decoration: none;
+}
+
+.contacts-footer {
+    position: absolute;
+    right: 0;
+    top: 32.64px;
+    font-style: normal;
+    text-align: right;
+}
+
+.contacts__descrioption {
+    color: #9A9A9A;
+    font-size: 11px;
+
+}
+
+.contacts__phone {
+    text-decoration: none;
+    font-size: 23px;
+}
+
+.contacts__workhours {
+    font-size: 11px;
+    text-decoration: underline;
+}
+
+.socials {
+    top: 45px;
+    right: 400px;
+    display: inline-block;
+    position: absolute;
+}
+
+.socials__link {
+    display: block;
+    text-decoration: none;
+    width: 36px;
+    height: 36px;
+    background: center center no-repeat;
+}
+
+.social__item {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+.social__item:last-child {
+    margin-right: 0;
+}
+
+.socials__item--icon--telegram .socials__link {
+    background-image: url(./img/telegram.png);
+}
+
+.socials__item--icon--vk .socials__link {
+    background-image: url(./img/vk.png)
+}
+
+.socials__item--icon--fb .socials__link {
+    background-image: url(./img/f.png);
+}
+
+.socials__item--icon--insta .socials__link {
+    background-image: url(./img/in.png);
+}
