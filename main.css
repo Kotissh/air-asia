@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     font-family: "Open Sans", Arial, Helvetica, sans-serif;
     background-color: #001821;
@@ -6,10 +10,16 @@ body {
     line-height: 21px;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    margin: 0;
 }
 
 a {
     color: inherit;
+}
+
+p {
+    margin: 0;
+
 }
 
 ul {
@@ -31,9 +41,7 @@ h6 {
     /* font-weight: normal; */
 }
 
-* {
-    box-sizing: border-box;
-}
+
 
 .container {
     margin: 0 auto;
@@ -41,7 +49,7 @@ h6 {
 }
 
 .main-page__wrapper {
-    background: url(./img/1.png) center top no-repeat, url(./img/2.png) center bottom no-repeat;
+    background: url(./assets/img/1.png) center top no-repeat, url(./assets/img/2.png) center bottom no-repeat;
 }
 
 
@@ -49,14 +57,24 @@ h6 {
     height: 169.36px;
     ;
     position: relative;
+    margin-bottom: 27px;
+}
+
+.header__menu {
+    top: 38px;
+    left: 163px;
+}
+.logo {
+width: 85px;
+height: 36px;
+display: block;
+position: absolute;
+top: 29px;
+left: 0px;
 }
 
 .logo__pic {
-    display: block;
-    position: absolute;
-    top: 29px;
-    left: 0px;
-    width: 70px;
+max-width: 100%;
 }
 
 .menu {
@@ -68,7 +86,7 @@ h6 {
 .menu__item {
     display: inline-block;
     vertical-align: middle;
-    margin-right: 44px;
+    margin-right: 50px;
 }
 
 .menu__item:last-child {
@@ -76,7 +94,7 @@ h6 {
 }
 
 .menu__link {
-    font-size: 12px;
+    font-size: 14px;
     text-decoration: none;
 }
 
@@ -90,11 +108,13 @@ h6 {
 
 .contacts__phone {
     text-decoration: none;
-    font-size: 23px;
+    font-size: 26px;
+    line-height: 1;
 }
 
 .contacts__workhours {
-    font-size: 11px;
+    font-size: 13px;
+    line-height: 1;
     text-decoration: underline;
 }
 
@@ -102,31 +122,33 @@ h6 {
 
 .promo__tours {
     width: 511px;
-    margin-bottom: 246px;
+    margin-bottom: 257px;
 }
 
 .promo__title {
-    font-size: 61px;
+    font-size: 72px;
     font-weight: bold;
-    line-height: 83px;
-    height: 193px;
+    line-height: 98px;
+    margin-bottom: 30px;
 }
 
 .promo__description {
     font-weight: normal;
-    font-size: 15px;
-    line-height: 10px;
+    font-size: 18px;
+    line-height: 20px;
+    margin-bottom: 31px;
 }
 
 .btn {
     background: #F5170E;
+    border: 0;
     border-radius: 35px;
     padding: 16px 31px;
     color: #fff;
     font-weight: bold;
-    font-size: 12px;
+    font-size: 20px;
+    line-height: 40px;
     text-transform: uppercase;
-    margin-top: 30px;
     display: inline-block;
 }
 
@@ -136,15 +158,13 @@ h6 {
 
 .hot-tours__header {
     display: inline-block;
-    margin-bottom: 51px;
+    margin-bottom: 49px;
 }
 
 .hot-tours__main-title {
     font-weight: bold;
     font-size: 36px;
     margin-right: 12px;
-    width: 273px;
-    height: 49px;
     display: inline-block;
 }
 
@@ -160,7 +180,7 @@ h6 {
     margin-right: 15px;
     width: 362px;
     background: #fff;
-    border-radius: 5px 5px 5px 5px;
+    border-radius: 5px;
 }
 
 .hot-tours__item:last-child {
@@ -168,16 +188,23 @@ h6 {
 }
 
 .hot-tours__cover {
-    min-height: 144px;
-    margin-bottom: 33px;
-    border-radius: 5px 5px 5px 5px;
+    height: 144px;
+    overflow: hidden;
 }
-
+.hot-tours__cover-img {
+width: 100%;
+height: 100%;
+object-fit: cover;
+display: block ;
+}
+.hot-tours__content {
+    padding: 33px 22px 26px;
+}
 .hot-tours__card-title {
     font-weight: bold;
     font-size: 24px;
     color: #000000;
-    margin-left: 22px;
+    margin-bottom: 20px;
 }
 
 .hot-tours__info {
@@ -190,9 +217,8 @@ h6 {
 }
 
 .hot-tours__info-cover {
-    margin-left: 28px;
-    margin-top: 21px;
     display: inline-block;
+    vertical-align: middle;
 }
 
 .hot-tours__info-text {
@@ -200,6 +226,7 @@ h6 {
     font-weight: normal;
     font-size: 16px;
     display: inline-block;
+    vertical-align: middle;
 }
 
 .hot-tours__description {
@@ -207,17 +234,12 @@ h6 {
     font-size: 14px;
     line-height: 21px;
     color: #303030;
-    margin-left: 22px;
-    margin-right: 16px;
     margin-bottom: 25px;
 }
 
-.hot-tours__button {
-    margin-left: 24px;
-    margin-bottom: 26px;
-}
 
 .btn--theme-common {
+    border: 1px solid;
     background-color: #fff;
     color: #F5170E;
     border-color: #F5170E;
@@ -227,11 +249,14 @@ h6 {
 .news {
     margin-bottom: 57px;
 }
-
+.news__cover{
+display: block ;
+}
 .news-offer__title {
     font-weight: bold;
     font-size: 36px;
     margin-bottom: 50px;
+    line-height: 1;
 }
 
 .news__item {
@@ -308,7 +333,7 @@ h6 {
     vertical-align: top;
     width: 490px;
     height: 505px;
-    background: url(./img/gates.jpg) center center / cover no-repeat;
+    background: url(./assets/img/gates.jpg) center center / cover no-repeat;
     border-radius: 5px;
 }
 
@@ -319,7 +344,7 @@ h6 {
     vertical-align: top;
     width: 785px;
     height: 455px;
-    background: url(./img/mountains.jpg) center center / cover no-repeat;
+    background: url(./assets/img/mountains.jpg) center center / cover no-repeat;
     margin-left: 354px;
     margin-top: -435px;
     border-radius: 5px;
@@ -352,31 +377,16 @@ opacity: 0.1;
 
 }
 
-.menu-footer {
-    position: absolute;
+.footer__menu {
     top: 38px;
-    left: 130px;
+    left: 166px;
 }
 
-.menu__item {
-    display: inline-block;
-    vertical-align: middle;
-    margin-right: 44px;
-}
-
-.menu__item:last-child {
-    margin-right: 0;
-}
-
-.menu__link {
-    font-size: 12px;
-    text-decoration: none;
-}
 
 .contacts-footer {
     position: absolute;
     right: 0;
-    top: 32.64px;
+    top: 25px;
     font-style: normal;
     text-align: right;
 }
@@ -387,19 +397,9 @@ opacity: 0.1;
 
 }
 
-.contacts__phone {
-    text-decoration: none;
-    font-size: 23px;
-}
-
-.contacts__workhours {
-    font-size: 11px;
-    text-decoration: underline;
-}
-
 .socials {
-    top: 45px;
-    right: 400px;
+    top: 34px;
+    right: 258px;
     display: inline-block;
     position: absolute;
 }
@@ -423,17 +423,17 @@ opacity: 0.1;
 }
 
 .socials__item--icon--telegram .socials__link {
-    background-image: url(./img/telegram.png);
+    background-image: url(./assets/img/telegram.png);
 }
 
 .socials__item--icon--vk .socials__link {
-    background-image: url(./img/vk.png)
+    background-image: url(./assets/img/vk.png)
 }
 
 .socials__item--icon--fb .socials__link {
-    background-image: url(./img/f.png);
+    background-image: url(./assets/img/f.png);
 }
 
 .socials__item--icon--insta .socials__link {
-    background-image: url(./img/in.png);
+    background-image: url(./assets/img/in.png);
 }
