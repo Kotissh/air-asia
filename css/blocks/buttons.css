@@ -1,0 +1,40 @@
+.btn {
+    background: #F5170E;
+    border: 0;
+    border-radius: 35px;
+    padding: 18px 41px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 19px;
+    text-transform: uppercase;
+    display: inline-block;
+}
+
+.btn--color {
+    border: 1px solid;
+    background-color: #fff;
+    color: #F5170E;
+    border-color: #F5170E;
+}
+
+.btn__hot {
+    background: #F5170E;
+    border: 0;
+    border-radius: 35px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 19px;
+    text-transform: uppercase;
+    display: inline-block;
+    padding: 18px 28px;
+}
+
+.btn--theme-common {
+    border: 1px solid;
+    background-color: #fff;
+    color: #F5170E;
+    border-color: #F5170E;
+
+}

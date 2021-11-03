@@ -1,0 +1,18 @@
+.promo__tours {
+    width: 50%;
+    margin-bottom: 257px;
+}
+
+.promo__title {
+    font-size: 72px;
+    font-weight: bold;
+    line-height: 98px;
+    margin-bottom: 30px;
+}
+
+.promo__description {
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 20px;
+    margin-bottom: 31px;
+}

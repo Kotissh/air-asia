@@ -1,0 +1,27 @@
+.partners {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+.partners__item {
+    margin-left: 40px;
+    margin-bottom: 30px;
+}
+
+.partners__item:nth-child(4n+1) {
+    margin-left: 0;
+}
+
+.partners__link {
+    display: flex;
+    min-width: 222px;
+    height: 100px;
+    align-items: center;
+
+}
+
+.partners__link:nth-child(4n+1) {
+    justify-content: flex-start;
+}

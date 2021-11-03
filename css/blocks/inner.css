@@ -1,0 +1,23 @@
+.inner-section {
+    background: #F4F5F5;
+    color: #1A1B1E;
+    padding: 88px 0 59px ;
+}
+
+.inner-section--bg--grey {
+    background: #F4F5F5;
+}
+
+.inner-section__title {
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 65px;
+    margin-bottom: 68px;
+}
+
+/* Мне показалось, что стили ниже можно расположить здесь, а не создавать новый файл :3 */
+.page-content--inner {
+    background: #FFF;
+    color: #303030;
+    padding: 98px 0 85px;
+}

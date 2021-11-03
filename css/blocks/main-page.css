@@ -1,0 +1,4 @@
+.main-page__wrapper {
+    background: url(../../assets/img/main__bg/1.png) center top no-repeat, url(../../assets/img/main__bg/2.png) center bottom no-repeat;
+    background-color: #001821;
+}

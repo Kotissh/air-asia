@@ -1,0 +1,42 @@
+.footer-main__container {
+    padding: 46px 0 60px;
+    border-top: 1px solid #1a3038;
+}
+
+.footer {
+    position: relative;
+}
+
+.footer-inner {
+    background-color: #001821;
+    padding: 45px 0 36px;
+
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.footer__col {
+    display: flex;
+    align-items: center;
+}
+
+.footer__col-align-right {
+    justify-content: flex-end;
+}
+
+.footer__logo {
+    width: 85px;
+    height: 36px;
+    display: block;
+    top: 49px;
+    left: 0px;
+}
+
+.footer__menu {
+    top: 62px;
+    left: 163px;
+}

@@ -1,0 +1,16 @@
+.top-line {
+    background: #001821 url(../../assets/img/img__service/bg__img/headline\ 1.jpg) right 50% top no-repeat;
+}
+
+.top-line__container {
+    min-height: 412px;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 24px;
+}
+.top-line__title {
+    font-weight: bold;
+    font-size: 72px;
+    line-height: 1;
+    margin-bottom: 37px;
+}
