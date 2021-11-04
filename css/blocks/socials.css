@@ -1,5 +1,7 @@
 .socials {
     margin-right: 70px;
+    display: flex;
+    align-items: center;
 }
 
 .socials__link {
@@ -11,8 +13,7 @@
 }
 
 .social__item {
-    display: inline-block;
-    vertical-align: middle;
+
     margin-right: 10px;
 }
 

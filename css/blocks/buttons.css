@@ -9,6 +9,7 @@
     line-height: 19px;
     text-transform: uppercase;
     display: inline-block;
+    text-decoration: none;
 }
 
 .btn--color {

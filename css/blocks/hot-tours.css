@@ -3,7 +3,7 @@
 }
 
 .hot-tours__header {
-    display: inline-block;
+    display: flex;
     margin-bottom: 49px;
 }
 
@@ -11,7 +11,7 @@
     font-weight: bold;
     font-size: 36px;
     margin-right: 12px;
-    display: inline-block;
+
 }
 
 .hot-tours__info {
@@ -22,7 +22,7 @@
 .hot-tours__title-icon {
     width: 21px;
     height: 28px;
-    display: inline-block;
+
 }
 
 .hot-tours__list {
@@ -71,11 +71,12 @@
 }
 
 .hot-tours__item-info {
-    display: inline-block;
+    display: flex;
+    align-items: center;
 }
 
 .hot-tours__info-cover {
-    display: inline-block;
+
     vertical-align: middle;
     margin-left: 17px;
 }
@@ -84,8 +85,7 @@
     width: 90px;
     font-weight: normal;
     font-size: 16px;
-    display: inline-block;
-    vertical-align: middle;
+
 }
 
 .hot-tours__description {
