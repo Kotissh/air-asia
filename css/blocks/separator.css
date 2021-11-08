@@ -1,0 +1,16 @@
+.separator{
+    background: rgb(233, 143, 143) url(../../assets/img/reviews__content/couple.png) right 28% bottom no-repeat;
+    min-height: 373px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #FFFFFF;
+}
+.separator__content{
+max-width: 53%;
+}
+.separator__title{
+    font-size: 48px;
+    line-height: 56px;
+    font-weight: bold;
+}
