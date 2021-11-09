@@ -37,6 +37,8 @@ height: 30px;
 .reviews__tags{
 display: flex;
 align-items: flex-start;
+flex-wrap: wrap;
+gap: 5px;
 }
 .tag{
     color: #303030;

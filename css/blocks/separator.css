@@ -1,5 +1,5 @@
 .separator{
-    background: rgb(233, 143, 143) url(../../assets/img/reviews__content/couple.png) right 28% bottom no-repeat;
+    background: url(../../assets/img/reviews__content/couple.png) right 28% bottom no-repeat, url(../../assets/img/reviews__content/Rectangle.jpg);
     min-height: 373px;
     display: flex;
     flex-direction: column;

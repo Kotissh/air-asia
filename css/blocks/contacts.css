@@ -13,7 +13,9 @@
     font-size: 13px;
     line-height: 1;
     text-decoration: underline;
+    position: relative;
 }
+
 .contacts-footer {
     right: 0;
     top: 48px;
