@@ -73,12 +73,12 @@
 .hot-tours__item-info {
     display: flex;
     align-items: center;
+    padding-left:7px;
+    padding-right:24px;
 }
 
 .hot-tours__info-cover {
-
-    vertical-align: middle;
-    margin-left: 17px;
+    margin-right:10px
 }
 
 .hot-tours__info-text {

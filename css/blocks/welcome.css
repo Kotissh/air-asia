@@ -9,7 +9,7 @@ height: 100%;
 right: 0; */
 align-items: center;
 justify-content: center;
-background: url(../../assets/img/welcome__content/welcome_bg.png) center bottom / cover no-repeat;
+background: url(../../assets/img/welcome__content/shades.png) top 45% center no-repeat, url(../../assets/img/welcome__content/welcome_bg.png) center bottom / cover no-repeat;
 }
 .central{
 display: flex;

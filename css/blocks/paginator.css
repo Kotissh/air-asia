@@ -41,3 +41,8 @@
     font-weight: bold;
     line-height: 32px;
 }
+.paginator__link:hover{
+    background: #F5170E;
+    color: #FFFFFF;
+    transition: 0.3s;
+}

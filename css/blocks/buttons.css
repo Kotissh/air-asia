@@ -46,16 +46,20 @@
 .btn__enter:hover{
     background: #DA0100;
     box-shadow: 0px 2px 4px rgba(218, 1, 0, 0.3);
+    transition: 0.3s;
 }
 .promo__details:hover {
     background: #DA0100;
+    transition: 0.3s;
 }
 .btn__hot:hover{
     border: 1px solid;
     background-color: #F5170E;
     color: #fff;
     border-color: #F5170E;
+    transition: 0.3s;
 }
 .btn--color--black:hover{
     background: #8E8E8E;
+    transition: 0.3s;
 }
