@@ -1,14 +1,27 @@
+.dropdown{
+    position: relative;
+    display: inline-block;
+}
+
 .dropdown__menu{
 position: absolute;
+background: url(../../assets/img/icons/drop.png);
+display: none;
+top: 100%;
 width: 160px;
 height: 80px;
-left: 1370px;
-top: 100%;
-background: #EDEDED;
-mix-blend-mode: normal;
-opacity: 0.5;
-display: none;
+
+
 }
 .dropdown:hover .dropdown__menu{
 display: block;
+left: -60px;
+}
+.dropdown__list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    padding-top: 29px;
 }

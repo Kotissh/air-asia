@@ -13,26 +13,74 @@
 }
 
 .social__item {
-
+    width: 36px;
+    height: 36px;
     margin-right: 10px;
+    position: relative;
 }
 
 .social__item:last-child {
     margin-right: 0;
 }
 
-.socials__item--icon--telegram .socials__link {
-    background-image: url(../../assets/img/icons/telegram.png);
+
+
+.socials__item--icon--telegram .socials__link::after {
+    content: "";
+    position: absolute;
+    display: block;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 36px;
+    height: 36px;
+    background: url('../../assets/img/icons/css_sprites.png') -122px -10px;
+}
+.socials__item--icon--telegram .socials__link:hover::after{
+background-position: -10px -122px;
 }
 
-.socials__item--icon--vk .socials__link {
-    background-image: url(../../assets/img/icons/vk.png)
+
+.socials__item--icon--vk .socials__link::after {
+    content: "";
+    position: absolute;
+    display: block;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 36px;
+    height: 36px;
+    background: url('../../assets/img/icons/css_sprites.png') -10px -66px;
+}
+.socials__item--icon--vk .socials__link:hover:after{
+    background-position: -66px -122px;
 }
 
-.socials__item--icon--fb .socials__link {
-    background-image: url(../../assets/img/icons/f.png);
+.socials__item--icon--fb .socials__link::after {
+    content: "";
+    position: absolute;
+    display: block;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 36px;
+    height: 36px;
+    background: url('../../assets/img/icons/css_sprites.png') -10px -10px;
 }
-
-.socials__item--icon--insta .socials__link {
-    background-image: url(../../assets/img/icons/in.png);
+.socials__item--icon--fb .socials__link:hover:after{
+    background-position: -122px -66px;
+}
+.socials__item--icon--insta .socials__link::after{
+    content: "";
+    position: absolute;
+    display: block;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 36px;
+    height: 36px;
+    background: url('../../assets/img/icons/css_sprites.png') -66px -10px;
+}
+.socials__item--icon--insta .socials__link:hover:after{
+    background-position: -66px -66px;
 }

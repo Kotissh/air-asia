@@ -2,6 +2,8 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    padding-top: 67px;
+    margin-bottom: 58px;
 
 }
 
@@ -19,7 +21,11 @@
     min-width: 222px;
     height: 100px;
     align-items: center;
-
+    filter: grayscale(1);
+    transition: filter 0.3s ease-out;
+}
+.partners__link:hover{
+    filter: grayscale(0)
 }
 
 .partners__link:nth-child(4n+1) {

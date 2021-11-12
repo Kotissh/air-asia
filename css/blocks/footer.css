@@ -1,21 +1,24 @@
 .footer-main__container {
-    padding: 46px 0 60px;
+    /* padding: 46px 0 60px; */
     border-top: 1px solid #1a3038;
 }
 
 .footer {
     position: relative;
+    min-height: 132px;
 }
 
 .footer-inner {
     background-color: #001821;
-    padding: 45px 0 36px;
+    /* padding: 45px 0 36px; */
+    /* margin-top: 36px; */
 
 }
 
 .footer-container {
     display: flex;
     justify-content: space-between;
+    padding-top: 45px;
 
 }
 
@@ -39,8 +42,4 @@
 .footer__menu {
     top: 62px;
     left: 163px;
-}
-.footer__reviews{
-    background-color: #001821;
-    padding: 85px 0 36px;
 }

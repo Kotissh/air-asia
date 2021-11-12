@@ -4,7 +4,7 @@
 
 .form__row {
     display: flex;
-    margin-bottom: 35px;
+    margin-bottom: 27px;
 }
 
 .form__input {
@@ -30,7 +30,7 @@
 }
 
 .form__input:focus {
-    border: red 1px solid ;
+    outline: red 1px solid ;
     color: #1A1B1E;
 }
 
@@ -43,7 +43,7 @@
 
 .form__controls {
     display: flex;
-    margin-bottom: 3px;
+    margin-bottom: 16px;
 }
 
 .form__controls-title {
@@ -60,7 +60,7 @@
 }
 
 .form__btn {
-    margin-right: 17px;
+    margin-right: 21px;
 }
 
 .form__btn:last-child {

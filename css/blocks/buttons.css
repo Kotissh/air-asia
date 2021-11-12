@@ -39,6 +39,23 @@
     border-color: #F5170E;
 
 }
+
 .btn--color--black{
     background: #2B2B2B;
+}
+.btn__enter:hover{
+    background: #DA0100;
+    box-shadow: 0px 2px 4px rgba(218, 1, 0, 0.3);
+}
+.promo__details:hover {
+    background: #DA0100;
+}
+.btn__hot:hover{
+    border: 1px solid;
+    background-color: #F5170E;
+    color: #fff;
+    border-color: #F5170E;
+}
+.btn--color--black:hover{
+    background: #8E8E8E;
 }

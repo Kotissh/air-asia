@@ -1,5 +1,5 @@
 .separator{
-    background: url(../../assets/img/reviews__content/couple.png) right 28% bottom no-repeat, url(../../assets/img/reviews__content/Rectangle.jpg);
+    background: url(../../assets/img/reviews__content/couple.png) right 25% bottom no-repeat, url(../../assets/img/reviews__content/Rectangle.jpg);
     min-height: 373px;
     display: flex;
     flex-direction: column;
@@ -11,6 +11,7 @@ max-width: 53%;
 }
 .separator__title{
     font-size: 48px;
-    line-height: 56px;
+    line-height: 65px;
     font-weight: bold;
+    padding-bottom: 20px;
 }
